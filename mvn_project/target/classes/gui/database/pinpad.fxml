@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.database.PinpadController">
+   <children>
+      <Button layoutX="135.0" layoutY="54.0" mnemonicParsing="false" onAction="#pinpad" prefHeight="73.0" prefWidth="110.0" text="1" />
+      <Button layoutX="245.0" layoutY="54.0" mnemonicParsing="false" onAction="#pinpad" prefHeight="73.0" prefWidth="110.0" text="2" />
+      <Button layoutX="355.0" layoutY="54.0" mnemonicParsing="false" onAction="#pinpad" prefHeight="73.0" prefWidth="110.0" text="3" />
+      <Button layoutX="135.0" layoutY="127.0" mnemonicParsing="false" onAction="#pinpad" prefHeight="73.0" prefWidth="110.0" text="4" />
+      <Button layoutX="245.0" layoutY="127.0" mnemonicParsing="false" onAction="#pinpad" prefHeight="73.0" prefWidth="110.0" text="5" />
+      <Button layoutX="355.0" layoutY="127.0" mnemonicParsing="false" onAction="#pinpad" prefHeight="73.0" prefWidth="110.0" text="6" />
+      <Button layoutX="135.0" layoutY="200.0" mnemonicParsing="false" onAction="#pinpad" prefHeight="73.0" prefWidth="110.0" text="7" />
+      <Button layoutX="245.0" layoutY="200.0" mnemonicParsing="false" onAction="#pinpad" prefHeight="73.0" prefWidth="110.0" text="8" />
+      <Button layoutX="355.0" layoutY="200.0" mnemonicParsing="false" onAction="#pinpad" prefHeight="73.0" prefWidth="110.0" text="9" />
+      <Button layoutX="135.0" layoutY="273.0" mnemonicParsing="false" onAction="#back" prefHeight="73.0" prefWidth="110.0" text="Backspace" />
+      <Button layoutX="245.0" layoutY="273.0" mnemonicParsing="false" onAction="#pinpad" prefHeight="73.0" prefWidth="110.0" text="0" />
+      <Button layoutX="355.0" layoutY="273.0" mnemonicParsing="false" onAction="#enter" prefHeight="73.0" prefWidth="110.0" text="enter" />
+      
+   </children>
+</AnchorPane>
